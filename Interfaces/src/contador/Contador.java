@@ -35,7 +35,7 @@ class Pulsacion1 extends JFrame {
 		pnl1.setLayout(new FlowLayout());
 		pnl1.add(new JLabel("Nº Clicks:"));
 
-		// Creación del objeto liostener en el botón Click
+		// Creación del objeto liostener en el botón Click, el listener esta instanciado en el método
 		btn1.addActionListener(new ClickEnBoton1(txtfld1));
 
 		// Añadir los componentes al panel
