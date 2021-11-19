@@ -18,6 +18,11 @@ public class CrearVentanaCentrada {
 
 class VentanaCentrada extends JFrame {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	public VentanaCentrada() {
 
 		Toolkit miPantalla = Toolkit.getDefaultToolkit();

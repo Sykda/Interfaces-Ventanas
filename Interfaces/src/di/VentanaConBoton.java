@@ -7,9 +7,14 @@ import javax.swing.JFrame;
 
 public class VentanaConBoton extends JFrame {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	public static void main(String[] args) {
 
-		VentanaConBoton boton = new VentanaConBoton();
+		new VentanaConBoton();
 		System.out.println(LocalDateTime.now());
 
 	}

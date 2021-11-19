@@ -19,6 +19,11 @@ public class DibujarEnMarco {
 
 class MarcoConDibujos extends JFrame {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	public MarcoConDibujos() {
 
 		setTitle("Marco Con Dibujos");
@@ -30,6 +35,11 @@ class MarcoConDibujos extends JFrame {
 }
 
 class CapasConFiguras extends JPanel {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 
 	public void paintComponent(Graphics g) {
 

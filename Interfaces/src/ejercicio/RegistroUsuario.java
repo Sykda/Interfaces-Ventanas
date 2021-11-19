@@ -10,6 +10,11 @@ import javax.swing.JTextField;
 
 public class RegistroUsuario extends JFrame{
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	public static void main(String[] args) {
 
 		RegistroUsuario ru = new RegistroUsuario();

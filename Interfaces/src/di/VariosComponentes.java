@@ -8,6 +8,11 @@ import javax.swing.JFrame;
 
 public class VariosComponentes extends JFrame {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	public static void main(String[] args) {
 
 		Botones b = new Botones();
@@ -34,6 +39,11 @@ class Botones extends JFrame {
 	 * 
 	 * add(b1); add(b2); }
 	 */
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 
 	public Botones() {
 		setSize(400, 300);

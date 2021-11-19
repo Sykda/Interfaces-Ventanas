@@ -19,6 +19,11 @@ public class VGridBagLayout2 {
 }
 
 class VentanaGbl3 extends JFrame {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	
 	GridBagLayout gb = new GridBagLayout();
 
 	public VentanaGbl3() {

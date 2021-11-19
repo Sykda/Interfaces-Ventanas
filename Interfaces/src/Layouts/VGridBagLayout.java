@@ -18,6 +18,11 @@ public class VGridBagLayout {
 }
 
 class VentanaGbl2 extends JFrame {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	public VentanaGbl2() {
 		super("Ventana con GBagLayout");
 		setSize(400, 300);

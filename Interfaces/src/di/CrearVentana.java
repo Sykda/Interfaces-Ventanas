@@ -16,6 +16,11 @@ public class CrearVentana {
 
 class Ventana extends JFrame {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	public void ventana() {
 		setSize(500, 300);
 	}

@@ -21,6 +21,11 @@ public class DibujarComponentes2 {
 
 class FijarMarco extends JFrame {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	public FijarMarco() {
 
 		setTitle("Fijar Marco");
@@ -36,6 +41,11 @@ class FijarMarco extends JFrame {
 }
 
 class FijarCapa extends JPanel {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 
 	public void paintComponent(Graphics g) {
 
