@@ -26,6 +26,7 @@ public class RegistroUsuario extends JFrame{
 	}
 
 	public RegistroUsuario() {
+		
 		setSize(350,250);
 		setTitle("Crear usuario");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
